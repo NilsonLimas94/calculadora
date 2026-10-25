@@ -9,10 +9,43 @@
 <body>
     <main class="calculator" id="calculator">
         <!-- Visor da calculadora -->
-         <div class="display">
+        <div class="display">
             <div class="previous-operand" id="previous-operand"></div>
             <div class="current-operand" id="current-operand">0</div>
-         </div>
+        </div>
+
+        <!-- Grade de botões -->
+        <div class="buttons">
+            <!-- Linha 1 -->
+            <button type="button" class="btn btn-action" data-action="clear">AC</button>
+            <button type="button" class="btn btn-action" data-action="delete">⌫</button>
+            <button type="button" class="btn btn-action" data-action="percent">%</button>
+            <button type="button" class="btn btn-op" data-operator="÷">÷</button>
+
+            <!-- Linha 2 -->
+            <button type="button" class="btn" data-number="7">7</button>
+            <button type="button" class="btn" data-number="8">8</button>
+            <button type="button" class="btn" data-number="9">9</button>
+            <button type="button" class="btn btn-op" data-operator="x">x</button>
+
+            <!-- Linha 3 -->
+            <button type="button" class="btn" data-number="4">4</button>
+            <button type="button" class="btn" data-number="5">5</button>
+            <button type="button" class="btn" data-number="6">6</button>
+            <button type="button" class="btn btn-op" data-operator="−">−</button>
+
+            <!-- Linha 4 -->
+            <button type="button" class="btn" data-number="1">1</button>
+            <button type="button" class="btn" data-number="2">2</button>
+            <button type="button" class="btn" data-number="3">3</button>
+            <button type="button" class="btn btn-op" data-operator="+">+</button>
+
+            <!-- Linha 5 -->
+            <button type="button" class="btn btn-action" data-action="negate">±</button>
+            <button type="button" class="btn" data-number="0">0</button>
+            <button type="button" class="btn" data-number=".">.</button>
+            <button type="button" class="btn btn-equal" data-action="calculate">=</button>
+        </div>
     </main>
     <script src="./script.js"></script>
 </body>
