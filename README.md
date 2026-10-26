@@ -10,7 +10,7 @@
   <video src="./assets/calculadora-demo.mp4" width="70%" controls autoplay loop muted></video>
 </div>
 
-> 🔗 **Deploy online:** [Clique aqui para testar o projeto no ar]([https://calculadora-sunset.vercel.app](https://calculadora-gamma-snowy.vercel.app))
+> 🔗 **Deploy online:** [Clique aqui para testar o projeto no ar](https://calculadora-sunset.vercel.app](https://calculadora-gamma-snowy.vercel.app)
 
 ---
 
